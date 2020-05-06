@@ -1,0 +1,2 @@
+function stack_tests() {
+}

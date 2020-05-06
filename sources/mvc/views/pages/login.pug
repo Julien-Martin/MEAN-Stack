@@ -1,0 +1,17 @@
+extends ../skeletons/front.skel.pug
+
+block main
+    #login
+        #login_title
+            h1 Uniquement pour les salariés de
+            h2: strong Sebbene medical
+        #login_form
+            form
+                .login_input
+                    label(for="username") Identifiant
+                    input#username(type="text")
+                .login_input
+                    label(for="password") Mot de passe
+                    input#password(type="password")
+                a(href="#") Mot de passe oublié ?
+                button Se connecter
